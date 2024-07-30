@@ -1,0 +1,157 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
+    img{
+        display:block;
+        max-width: 100%;
+        height: auto;
+    }
+    body{
+        font-family: "Roboto", sans-serif;
+        background-color:#ccc0c0;
+        color: #434455
+    }
+    
+    ul,
+    ol{
+      list-style-type: none; 
+      margin: 0;
+      padding: 0; 
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        padding: 0;
+        cursor: pointer;
+    } 
+
+    address {
+        font-style: normal
+    }      
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.container{
+    padding-top: 50px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.title{
+margin-bottom: 35px;
+}
+
+.paragraph{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.titel-task{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 25px;
+    /* background-color: #75a339; */
+    /* padding: 15px 5px ;
+    border-radius: 15px; */
+    
+}
+
+#link-ul{
+    width: 800px;
+    height: 320px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+    /* overflow: auto; */
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 650px;
+}
+
+.btn-add{
+    display: block;
+    width: 180px;
+    margin-left: 50px;
+    padding: 8px;
+    background-color: #003366;
+    border: none;
+    border-radius: 30px;
+    color:#ffffff;
+    transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.btn-add:hover{
+    color: #1d548b;
+    background-color: #1d548b;
+}
+
+#task-input{
+    padding: 15px 8px;
+}
+
+.css-style{
+    padding: 15px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.lishka{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.li-ada{
+    margin-top: 110px;
+    margin-left: 202px;
+    font-size: 30px;
+    color: #1f9c92;
+}
+
+.xxx{
+    border: none;
+    background-color: #bdb3b3;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.xxx svg{
+    pointer-events: none;
+}
+
+.xxx:hover{
+background-color: #6f7079;
+}
+
+.svgg{
+    stroke: rgb(187, 86, 86);
+    border: none;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.svgg:hover{
+    stroke: rgb(212, 5, 5);
+    }
+
+.visually-hidden {
+    display: none !important;
+    }
